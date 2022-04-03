@@ -14,3 +14,12 @@ $arrayCount = count($students);
 for($i = 0; $i < $arrayCount; $i++){
     echo $students[$i]. "\n";
 }
+echo "\n";
+$employs = [
+    "Sohel",
+    "Rakib",
+    "Raihan",
+    "Shakib"
+];
+
+echo $employs[1];
